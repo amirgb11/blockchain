@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-test": "node dev-test"
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,9 @@
     "nodemon": "^1.17.5"
   },
   "dependencie": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "dependencies": {
     "crypto-js": "^3.1.9-1"
   }
 }
